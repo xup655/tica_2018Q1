@@ -1,5 +1,5 @@
 {
-  "name": "empty",
+  "name": "addprice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xup655/Empty.git"
+    "url": "git+https://github.com/SuStephanie/add_price.git"
   },
-  "author": "Xup655",
+  "author": "Stephanie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xup655/Empty/issues"
+    "url": "https://github.com/SuStephanie/add_price/issues"
   },
-  "homepage": "https://github.com/xup655/Empty#readme",
+  "homepage": "https://github.com/SuStephanie/add_price#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
