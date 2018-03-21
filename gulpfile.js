@@ -3,12 +3,12 @@ var scss = require('gulp-sass');
 
 gulp.task('sass', function() {
 
-  return gulp.src('resourse/sass/*.scss')
+  return gulp.src('assets/scss/*.scss')
           .pipe(scss())
           .pipe(gulp.dest('assets/css'))
 
 });
 
 gulp.task('default', ['sass'], function() {
-    gulp.watch('resourse/sass/**/*.scss', ['sass']);
+    gulp.watch('assets/scss/*.scss', ['sass']);
 })

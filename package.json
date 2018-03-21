@@ -1,5 +1,5 @@
 {
-  "name": "addprice",
+  "name": "tica_2018Q1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SuStephanie/add_price.git"
+    "url": "git+https://github.com/SuStephanie/tica_2018Q1.git"
   },
   "author": "Stephanie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SuStephanie/add_price/issues"
+    "url": "https://github.com/SuStephanie/tica_2018Q1/issues"
   },
-  "homepage": "https://github.com/SuStephanie/add_price#readme",
+  "homepage": "https://github.com/SuStephanie/tica_2018Q1#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
