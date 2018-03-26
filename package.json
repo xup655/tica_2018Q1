@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SuStephanie/tica_2018Q1.git"
+    "url": "git+https://github.com/xup655/tica_2018Q1.git"
   },
   "author": "Stephanie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SuStephanie/tica_2018Q1/issues"
+    "url": "https://github.com/xup655/tica_2018Q1/issues"
   },
-  "homepage": "https://github.com/SuStephanie/tica_2018Q1#readme",
+  "homepage": "https://github.com/xup655/tica_2018Q1#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
