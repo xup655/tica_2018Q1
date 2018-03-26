@@ -1,4 +1,4 @@
-.relative {
+﻿.relative {
     position: relative;
 }
 button {
@@ -65,6 +65,8 @@ button {
             transform: translate(-50%, 0);
             width: 100px;
             border-top: 2px solid #8E558C;
+	    @media (max-width: 767px) {
+            }
         }
         span {
             font-size: 20px;
@@ -153,12 +155,18 @@ button {
 }
 .other-links {
     margin-top: 50px;
-    .line_img {
-        margin-bottom: 30px;
-    }
     .fb_shareBox {
         margin: 0 auto;
         width: 340px;
+	@media (max-width: 767px) {
+	        margin-top: 30px;
+	}
+    }
+    .fb_center {
+
+        @media (min-width: 768px) {
+	        position:absolute;left:50%;transform:translate(-50%,0);
+	}
     }
 }
 @media (min-width: 768px) {
@@ -316,5 +324,13 @@ button {
             background-size: cover;
             background-repeat: no-repeat;
         }
+    }
+    .box {
+	&:after {
+		content: '';
+		width: 100%;
+		display: block;
+		clear: both;
+	}
     }
 }

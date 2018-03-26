@@ -133,11 +133,17 @@ button {
 
 .other-links {
   margin-top: 50px; }
-  .other-links .line_img {
-    margin-bottom: 30px; }
   .other-links .fb_shareBox {
     margin: 0 auto;
     width: 340px; }
+    @media (max-width: 767px) {
+      .other-links .fb_shareBox {
+        margin-top: 30px; } }
+  @media (min-width: 768px) {
+    .other-links .fb_center {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0); } }
 
 @media (min-width: 768px) {
   .height_outer {
@@ -264,4 +270,9 @@ button {
       padding-top: 70%;
       background-position: center;
       background-size: cover;
-      background-repeat: no-repeat; } }
+      background-repeat: no-repeat; }
+  .box:after {
+    content: '';
+    width: 100%;
+    display: block;
+    clear: both; } }

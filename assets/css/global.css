@@ -806,6 +806,7 @@ blockquote footer:before, .blockquote-reverse footer:after {
 }
 .navbar-nav {
 	margin: 0;
+    font-family: "微軟正黑體";
 }
 .navbar-default .navbar-nav > li {
 	padding: 0;

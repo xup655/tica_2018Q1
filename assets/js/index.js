@@ -10,16 +10,28 @@ $(function(){
 		}
 	}
 	// News text
-	// function nt_reHeight() {
-	// 	$('.js_txt_hei').height( $('.js_img_hei').height() );
-	// }
+	function nt_reHeight() {
+		var img = $('.js_img_hei'), txt = $('.js_txt_hei');
+		img.css('height', '');
+		txt.css('height', '');
+	    if( $(window).width() > 767) {
+		    if( img.height() > txt.height() ) {
+			txt.height( img.height() );
+	    	}
+	    	else {
+			img.height( txt.height() );
+		}
+	    }
+	}
 	
 	cb_reHeight();
-	// nt_reHeight();
 	
 	$(window).resize(function(){
 		cb_reHeight();
-		// nt_reHeight();
+		nt_reHeight();
+	});
+	$(window).load(function(){
+		nt_reHeight();
 	});
 	
 });
